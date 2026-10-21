@@ -1,0 +1,258 @@
+{
+ "n_li": 456,
+ "li_with_reports": 333,
+ "spearman": {
+  "rat_total": {
+   "eatery": 0.375,
+   "eatery_per_km2": 0.33,
+   "eatery_per_10k": 0.296,
+   "market": 0.104,
+   "convenience": 0.369,
+   "grocery": 0.226,
+   "manholes": 0.145,
+   "manhole_per_km2": 0.184,
+   "manhole_unsurveyed_share": 0.097,
+   "manhole_disabled": 0.131,
+   "trashbin_pts": 0.144,
+   "trashbin_130": 0.186,
+   "youbike": 0.26,
+   "busstops": 0.067,
+   "pop": 0.176,
+   "pop_density": 0.131,
+   "pop65_share": 0.047,
+   "acc_a2": 0.32,
+   "acc_a2_cases": 0.307,
+   "fire_lanes": -0.021,
+   "construction": -0.002
+  },
+  "rat_may": {
+   "eatery": 0.354,
+   "eatery_per_km2": 0.32,
+   "eatery_per_10k": 0.275,
+   "market": 0.11,
+   "convenience": 0.344,
+   "grocery": 0.224,
+   "manholes": 0.113,
+   "manhole_per_km2": 0.17,
+   "manhole_unsurveyed_share": 0.102,
+   "manhole_disabled": 0.115,
+   "trashbin_pts": 0.14,
+   "trashbin_130": 0.201,
+   "youbike": 0.24,
+   "busstops": 0.062,
+   "pop": 0.177,
+   "pop_density": 0.15,
+   "pop65_share": 0.039,
+   "acc_a2": 0.32,
+   "acc_a2_cases": 0.31,
+   "fire_lanes": -0.023,
+   "construction": 0.003
+  },
+  "rat_after": {
+   "eatery": 0.205,
+   "eatery_per_km2": 0.129,
+   "eatery_per_10k": 0.182,
+   "market": 0.012,
+   "convenience": 0.202,
+   "grocery": 0.086,
+   "manholes": 0.15,
+   "manhole_per_km2": 0.062,
+   "manhole_unsurveyed_share": -0.007,
+   "manhole_disabled": 0.129,
+   "trashbin_pts": 0.084,
+   "trashbin_130": 0.026,
+   "youbike": 0.15,
+   "busstops": 0.04,
+   "pop": 0.017,
+   "pop_density": -0.061,
+   "pop65_share": 0.04,
+   "acc_a2": 0.142,
+   "acc_a2_cases": 0.135,
+   "fire_lanes": -0.015,
+   "construction": -0.039
+  },
+  "rat_per_10k": {
+   "eatery": 0.342,
+   "eatery_per_km2": 0.348,
+   "eatery_per_10k": 0.346,
+   "market": 0.093,
+   "convenience": 0.296,
+   "grocery": 0.175,
+   "manholes": 0.068,
+   "manhole_per_km2": 0.174,
+   "manhole_unsurveyed_share": 0.103,
+   "manhole_disabled": 0.148,
+   "trashbin_pts": 0.14,
+   "trashbin_130": 0.214,
+   "youbike": 0.206,
+   "busstops": 0.013,
+   "pop": -0.057,
+   "pop_density": 0.102,
+   "pop65_share": 0.11,
+   "acc_a2": 0.308,
+   "acc_a2_cases": 0.29,
+   "fire_lanes": -0.006,
+   "construction": -0.029
+  },
+  "rat_per_km2": {
+   "eatery": 0.345,
+   "eatery_per_km2": 0.539,
+   "eatery_per_10k": 0.315,
+   "market": 0.112,
+   "convenience": 0.246,
+   "grocery": 0.222,
+   "manholes": -0.141,
+   "manhole_per_km2": 0.324,
+   "manhole_unsurveyed_share": 0.137,
+   "manhole_disabled": 0.061,
+   "trashbin_pts": 0.048,
+   "trashbin_130": 0.108,
+   "youbike": 0.009,
+   "busstops": -0.199,
+   "pop": 0.038,
+   "pop_density": 0.462,
+   "pop65_share": 0.106,
+   "acc_a2": 0.155,
+   "acc_a2_cases": 0.136,
+   "fire_lanes": -0.041,
+   "construction": -0.082
+  },
+  "rat_total_li_with_reports(n=333)": {
+   "eatery": 0.343,
+   "eatery_per_km2": 0.241,
+   "eatery_per_10k": 0.28,
+   "market": 0.134,
+   "convenience": 0.336,
+   "grocery": 0.178,
+   "manholes": 0.099,
+   "manhole_per_km2": 0.061,
+   "manhole_unsurveyed_share": 0.164,
+   "manhole_disabled": 0.133,
+   "trashbin_pts": 0.206,
+   "trashbin_130": 0.136,
+   "youbike": 0.225,
+   "busstops": 0.181,
+   "pop": 0.129,
+   "pop_density": 0.005,
+   "pop65_share": 0.09,
+   "acc_a2": 0.218,
+   "acc_a2_cases": 0.225,
+   "fire_lanes": -0.01,
+   "construction": 0.015
+  }
+ },
+ "quartile_cross": {
+  "eatery_hi=False,manhole_hi=False": {
+   "n_li": 268,
+   "pop": 1441473.0,
+   "rat_total": 467.0,
+   "rat_per_10k": 3.24,
+   "li_with_zero": 88
+  },
+  "eatery_hi=True,manhole_hi=True": {
+   "n_li": 40,
+   "pop": 201001.0,
+   "rat_total": 109.0,
+   "rat_per_10k": 5.42,
+   "li_with_zero": 3
+  },
+  "eatery_hi=False,manhole_hi=True": {
+   "n_li": 74,
+   "pop": 392588.0,
+   "rat_total": 130.0,
+   "rat_per_10k": 3.31,
+   "li_with_zero": 22
+  },
+  "eatery_hi=True,manhole_hi=False": {
+   "n_li": 74,
+   "pop": 383810.0,
+   "rat_total": 243.0,
+   "rat_per_10k": 6.33,
+   "li_with_zero": 10
+  }
+ },
+ "zero_report_li": {
+  "n": 123,
+  "pop": 590348.0,
+  "eatery_in_them": 2467.0
+ },
+ "top_eatery_li": [
+  [
+   "中正區",
+   "黎明里",
+   368,
+   19
+  ],
+  [
+   "中山區",
+   "中央里",
+   169,
+   3
+  ],
+  [
+   "中山區",
+   "民安里",
+   157,
+   4
+  ],
+  [
+   "大安區",
+   "大學里",
+   154,
+   3
+  ],
+  [
+   "信義區",
+   "西村里",
+   142,
+   11
+  ],
+  [
+   "中正區",
+   "水源里",
+   135,
+   4
+  ],
+  [
+   "大安區",
+   "光武里",
+   130,
+   4
+  ],
+  [
+   "信義區",
+   "興雅里",
+   128,
+   5
+  ],
+  [
+   "中山區",
+   "集英里",
+   126,
+   7
+  ],
+  [
+   "中正區",
+   "文盛里",
+   126,
+   2
+  ],
+  [
+   "中山區",
+   "朱園里",
+   119,
+   1
+  ],
+  [
+   "內湖區",
+   "港墘里",
+   118,
+   0
+  ]
+ ],
+ "market_li_reports": {
+  "li_with_market": 84,
+  "rat_per_10k_market_li": 4.5,
+  "rat_per_10k_no_market_li": 3.78
+ }
+}
